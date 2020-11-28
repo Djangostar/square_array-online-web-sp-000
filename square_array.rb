@@ -1,6 +1,6 @@
 require 'pry'
-def square_array(arr)
-  new_arr = []
-  arr.each { |num| new_arr << num ** 2 }
-  new_arr
+def square_array(array)
+  new_array = []
+  array.each {|num| new_array << num ** 2}
+  new_array
 end
